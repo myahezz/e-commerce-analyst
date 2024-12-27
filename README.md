@@ -12,5 +12,4 @@ pipenv shell
 pip install -r requirements.txt
 
 ## Run streamlit app
-streamlit run dashboard.py# project-ml
-# e-commerce-analyst
+streamlit run dashboard.py
