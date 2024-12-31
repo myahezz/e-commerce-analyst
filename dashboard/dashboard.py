@@ -38,7 +38,7 @@ def create_byreview_df(df):
 
     return byreview_df
 
-main_data_df = pd.read_csv("main_data.csv")
+main_data_df = pd.read_csv("dashboard/main_data.csv")
 
 datetime_columns = ["order_purchase_timestamp", "order_estimated_delivery_date"]
 main_data_df.sort_values(by="order_purchase_timestamp", inplace=True)
